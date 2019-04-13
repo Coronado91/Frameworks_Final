@@ -1,0 +1,16 @@
+.barra{
+	background-color:  #0288d1;
+}
+.head-logo {
+	width: 220px;
+	padding: 30px;
+}
+
+.musica{
+	background-color: rgb(200, 4, 105  );
+}
+.menu{
+	display: inline-block;
+	background-color: rgb(154, 211, 208  );
+}
+
