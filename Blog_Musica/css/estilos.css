@@ -1,5 +1,5 @@
 .barra{
-	background-color:  #0288d1;
+	background-color:  #027FB6;
 }
 .head-logo {
 	width: 220px;
@@ -7,10 +7,17 @@
 }
 
 .musica{
-	background-color: rgb(200, 4, 105  );
+	background-color: #9F1B75;
 }
 .menu{
 	display: inline-block;
 	background-color: rgb(154, 211, 208  );
+}
+
+.cont-fondo{
+	background-color: #C9D6DC;
+}
+.rcont-fondo{
+	background-color: #A1A5A7;
 }
 

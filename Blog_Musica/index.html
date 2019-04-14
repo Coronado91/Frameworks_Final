@@ -8,31 +8,60 @@
 	<link rel="stylesheet" type="text/css" href="css/estilos.css">
 	<!--Enlace Bootstrap v4.3.1-->
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-social.css">
 	<title>Blog de Musica</title>
 </head>
 <body class="musica">
-
-	<div class="container">
-			<div class="row barra">
-					<div class="col-md-8">
-						<img class="head-logo" src="img/logo.png" alt="">
+<!-- Inicio de header-->
+		<header>
+			<div class="container"><!--Inicio Cuerpo de header-->
+				<div class="row barra"><!--Inicio de Logo y Redes Sociales-->
+						<div class="col-md-8"><!--Inicio Logo-->
+							<img class="head-logo" src="img/logo.png" alt="">
+						</div><!--Fin Logo-->
+						<div class="col-md-4 align-self-end mb-3"><!--Inicio de Redes Sociales-->
+							<a class="btn btn-social-icon  btn-twitter ">
+	   	 						<span class = "fa fa-twitter"> </span>
+	  						</a>
+						</div><!--Fin de Redes Sociales-->
+				</div><!--Fin de Logo y Redes Sociales-->
+				<div class="row menu"><!--Inicio de Nav Menu-->
+					<div class="col-12">
+						<nav class="nav nav-pills flex-column flex-sm-row text-center"><!--Inicio de nav y item-->
+							<a class="flex-sm-fill text-sm-center nav-link" href="#">Inicio</a>
+						  	<a class="flex-sm-fill text-sm-center nav-link" href="#">Artistas</a>
+						  	<a class="flex-sm-fill text-sm-center nav-link" href="#">Grupos</a>
+						  	<a class="flex-sm-fill text-sm-center nav-link" href="#">Top 10</a>
+						  	<a class="flex-sm-fill text-sm-center nav-link" href="#">Letras</a>
+						  	<a class="flex-sm-fill text-sm-center nav-link" href="#">Acordes</a>
+						</nav><!--Fin de nav y item-->
 					</div>
-					<div class="col-md-4">
-				</div>
+				</div><!--Fin de Nav Menu-->
+			</div><!--Fin de Cuerpo de header-->
+		</header><!--Fin de header-->
+		<div class="container"><!--Inicio Cuerpo de Desarrollo de Pagina-->
+			<div class="row mt-3 cont-fondo">
+				<div class="col-md-8"><!--Inicio de contenido-->
+					<div class="row rcont-fondo ">
+						<div class="col-md-8 text-justify mt-2"><!--Inicio de Texto-->
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+					<div class="col-md-4 text-align-center mt-2 mb-1"><!--Inicio de Imagen-->
+						<img src="img/musica.jpg" width="100%">
+					</div>
+					</div>
+					
+				</div><!--Fin de contenido-->
+				<div class="col-md-4"><!--Buscador-->
+					
+				</div><!--Fin de Buscador-->				
 			</div>
-			<div class="row menu">
-				<div class="col-12">
-					<nav class="nav nav-pills flex-column flex-sm-row text-center">
-						<a class="flex-sm-fill text-sm-center nav-link" href="#">Inicio</a>
-					  	<a class="flex-sm-fill text-sm-center nav-link" href="#">Artistas</a>
-					  	<a class="flex-sm-fill text-sm-center nav-link" href="#">Grupos</a>
-					  	<a class="flex-sm-fill text-sm-center nav-link" href="#">Top 10</a>
-					  	<a class="flex-sm-fill text-sm-center nav-link" href="#">Letras</a>
-					  	<a class="flex-sm-fill text-sm-center nav-link" href="#">Acordes</a>
-					</nav>	
-				</div>
-			</div>
-	</div>
+		</div>
 			
 </body>
 </html>
