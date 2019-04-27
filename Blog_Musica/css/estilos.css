@@ -1,23 +1,30 @@
-.barra{
-	background-color:  #027FB6;
-}
-.head-logo {
-	width: 220px;
-	padding: 30px;
-}
-
+/*Fondo de body*/
 .musica{
-	background-color: #9F1B75;
+  background-color: #8F9496; 
 }
+/*fondo de header*/
+header{
+  background-color: #023B4E  ;
+}
+/*redes sociales*/
+.img-social{
+    width: 70px;
+    height: auto;
+}
+
+.img-social:hover{
+    width: 90px;
+    height: auto;
+}
+/*nav o menu*/
 .menu{
-	display: inline-block;
-	background-color: rgb(154, 211, 208  );
+  background-color:black;
 }
-
-.cont-fondo{
-	background-color: #C9D6DC;
+.menu a{
+  text-decoration: none;
 }
-.rcont-fondo{
-	background-color: #A1A5A7;
+.cuerpo{
+  background-color: #6D7273; 
+  margin:1%;
+  padding: 1%;
 }
-
