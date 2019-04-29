@@ -16,11 +16,17 @@ header{
     width: 90px;
     height: auto;
 }
-/*nav o menu*/
+.menu nav a{
+  color: #fff;
+}
+.menu nav a:hover{
+  background-color: rgba(255,255,255,.1);
+}
+/*nav o menu
 .menu{
   background-color:black;
   border-radius: 2px;
-}
+}*/
 .menu a{
   text-decoration: none;
 }
@@ -66,3 +72,5 @@ header{
   margin-top: 2px;
   padding-top: 1%;
 }
+
+
