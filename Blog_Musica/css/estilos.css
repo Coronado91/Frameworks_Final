@@ -19,12 +19,50 @@ header{
 /*nav o menu*/
 .menu{
   background-color:black;
+  border-radius: 2px;
 }
 .menu a{
   text-decoration: none;
 }
+/*cuerpo de card o de pagina de desarrollo*/
 .cuerpo{
   background-color: #6D7273; 
   margin:1%;
   padding: 1%;
+  border-radius: 3px;
+}
+
+.comentario  form textarea{
+  width: 100%; 
+  background: #FFF;
+  border: 1px solid #cdcdcd;
+  color: #565656;
+  padding: 1%;
+  min-height: 60px;
+  height: 60px;
+  min-width: 100%;
+  max-width: 100%;
+  font-size: 14px;
+}
+
+
+.comentario .foto a{
+  display: inline-block;
+  width: 50px;
+  height: 60px;
+}
+
+.comentario .foto{
+  padding: 1%;
+  margin-left: 25px;
+}
+
+
+.comentario img{
+  width: 50px;
+  height: 50px;
+}
+.comentario{
+  margin-top: 2px;
+  padding-top: 1%;
 }
