@@ -11,7 +11,6 @@
 }
 .menu a{
 	font-size: 20px;
-
 }
 .fav{
 	padding-top: 4%;
@@ -21,14 +20,12 @@
 	text-decoration: none;
 	color: black;
 }
-
 .img-comida{
 	padding-bottom: 1%;
 	margin: 1%;
 	width: 100%;
 	height: auto;
 }
-
 .historia{
 	padding-top: 3%;
 	font-size: 20px;
@@ -36,4 +33,7 @@
 .historia a{
 	text-decoration: none;
 	color: black;
+}
+.lista{
+	padding-top: 3%;
 }
