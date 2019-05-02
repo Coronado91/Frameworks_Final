@@ -33,7 +33,23 @@
 .historia a{
 	text-decoration: none;
 	color: black;
+	background-color: none;
 }
 .lista{
 	padding-top: 3%;
 }
+.h-a{
+	padding: 3%;
+	margin: 1%;
+}
+.comentario{
+	width: 500px;
+	margin-left: 0px;
+}
+
+.iconp{
+	width: 40px;
+	height: 40px;
+	margin-left: 30px;
+}
+
