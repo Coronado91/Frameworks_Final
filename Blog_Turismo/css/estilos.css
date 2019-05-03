@@ -1,8 +1,9 @@
+/*estilos menu   izquierdo*/
 .menu-izq{
 	margin-top: 250px;
 	margin-left: 8%;
 }
-
+/
 .icon{
 	margin-top: 20px;
 }
@@ -10,7 +11,7 @@
 .icon-menu-iz{
 	width: 100%;
 }
-
+/*estilos menu encabezado */
 .logo{
 	width: 60%;
 	margin-top: 5%;
