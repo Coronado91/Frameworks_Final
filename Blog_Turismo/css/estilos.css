@@ -12,7 +12,30 @@
 }
 
 .logo{
-	width: 75%;
+	width: 60%;
 	margin-top: 5%;
 	height: auto;
+	margin-left: 5%;
+}
+.menu-nav{
+	margin-right: 3%;
+}
+
+img{
+	border-radius: 4px;
+}
+p{
+	font-size: 24px;
+	text-align: justify;
+}
+
+.slogan{
+	padding-top: 7%;
+	padding-bottom: 1%;
+	color: white;
+	margin-top: 0;
+}
+
+.menu-v ul{
+	padding: 1%;
 }
